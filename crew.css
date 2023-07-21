@@ -1,0 +1,240 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    margin: auto;
+    height: 100%;
+    background-image: url(images/assets/crew/background-crew-mobile.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;  
+}
+
+.container{
+    width: 90%;
+    margin: auto;
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.container-logo{
+    width: 80%
+    
+}
+.container-menu{
+    list-style: none;
+    width: 100%;
+    margin: auto;
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: rgb(94, 89, 89);
+    font-size: 18px;
+    text-align: center;
+}
+
+.container-menu a{
+    color: antiquewhite;
+    padding: 14px 16px;
+}
+
+.container-menu :hover{
+    background-color: lightgray;
+    color: white; 
+}
+.col{
+    font-size: 13px;
+    text-align: center;
+    text-transform: uppercase;
+    color: antiquewhite;
+    padding-top: 10px;
+}
+
+.lead{
+    width: 100%;
+    text-align: center;
+}
+
+.image1{
+    width: 80%;
+    height: 200px;
+    padding-top: 20px;
+}
+
+.container-menu2{
+    font-size: 20px;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+}
+
+.container-menu2 a{
+    color: white;
+    padding: 14px 16px;
+}
+
+.container-menu2 :hover{
+    background-color: black;
+    color: white;
+}
+.container-menu3{
+    display: none;
+}
+.main{
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    padding-top: 35px;
+}
+
+.main h2{
+    font-size: 18px;
+    font-family: 'Courier New', Courier, monospace;
+    color: lightslategray;
+    text-transform: uppercase;
+}
+
+.main h1{
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    padding-top: 10px;
+    color: lightgray;
+}
+
+.main p{
+    font-size: 25px;
+    color: lightslategray;
+    padding-top: 15px;
+    line-height: 25px;
+}
+
+@media (min-width: 670px){
+    
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    body{
+        width: 100%;
+        margin: auto;
+        height: 100%;
+        background-image: url(images/assets/crew/background-crew-desktop.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        
+    }
+    
+    .container{
+        width: 90%;
+        margin: auto;
+    }
+    .container-logo{
+        padding-top: 20px;
+     width: 80%;
+     height: 50px;
+        
+    }
+    span{
+        padding-right: 10px;
+    }
+
+    .container ul{
+        width: 700px;
+        height: 70px;
+        justify-content: center;
+    }
+
+    .container-menu{
+        display: flex;
+        flex-direction: row;
+    }
+    .container-menu a{
+        color: antiquewhite;
+        padding: 14px 16px;
+        line-height: 70px;
+        text-align: center;
+    }
+    
+    .container-menu :hover{
+        background-color: lightgray;
+        color: white;
+        
+    }
+
+    .col{
+        width: 50%;
+        color:antiquewhite;
+        
+        height: 80px;
+        text-align: center;
+        font-size: 12px;
+        font-family: serif;
+        padding-top: 20px;
+       }
+
+       .col h1{
+        padding-top: 50px;
+
+       }
+    
+.image1{
+    width: 500px;
+    height: 550px;
+   
+}
+
+.last{
+    width: 80%;
+   display: flex;
+   flex-direction: row-reverse;
+
+}
+
+.container-menu2{
+    display: none;
+}
+
+.container-menu3{
+    font-size: 20px;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    padding-right: 10px;
+}
+
+.container-menu3 a{
+    font-family: serif;
+    color: lightslategray;
+    padding:14px 16px;
+}
+
+.main{
+    width: 35%;
+    height: 700px;
+}
+
+.men{
+    padding-top: 150px;
+}
+
+.men h2{
+    font-size: 25px;
+    padding-bottom: 40px;
+}
+.men h1{
+    font-size: 40px;
+}
+.men p{
+    font-size: 20px;
+    line-height: 30px;
+}
+    
+}
